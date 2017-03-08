@@ -1,8 +1,7 @@
 # RainingImageView-lib
 It is the Weather View for RainingImage #raindrop
 
-
-![demo](https://github.com/andy6804tw/RainingImageView-lib/blob/master/Screenshot/demo.gif)
+<img src="Screenshot/demo.gif" width="200">
 
 How to
 
