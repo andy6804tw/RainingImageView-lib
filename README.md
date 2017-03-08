@@ -2,7 +2,7 @@
 It is the Weather View for RainingImage #raindrop
 
 
-![Screenshot](demo.gif)
+![Screenshot](https://github.com/andy6804tw/RainingImageView-lib/blob/master/Screenshot/demo.gif)
 
 
 How to
