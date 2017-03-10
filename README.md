@@ -1,6 +1,8 @@
 # RainingImageView-lib
 It is the Weather View for RainingImage #raindrop
 
+<img src="Screenshot/demo.gif" width="200">
+
 How to
 
 To get a Git project into your build:
