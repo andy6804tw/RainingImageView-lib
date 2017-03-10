@@ -20,7 +20,11 @@ public class TextureHelper
 		if (textureHandle[0] != 0)
 		{
 			final BitmapFactory.Options options = new BitmapFactory.Options();
-			options.inScaled = false;	// No pre-scaling
+			options.inPreferredConfig = Bitmap.Config.RGB_565;
+			options.inPurgeable = true;
+			options.inInputShareable = true;
+			options.inSampleSize = 10;
+			//options.inScaled = false;	// No pre-scaling
 
 			// Read in the resource
 			final Bitmap bitmap = BitmapFactory.decodeResource(context.getResources(), resourceId, options);
@@ -36,7 +40,8 @@ public class TextureHelper
 			GLUtils.texImage2D(GLES20.GL_TEXTURE_2D, 0, bitmap, 0);
 			
 			// Recycle the bitmap, since its data has been loaded into OpenGL.
-			bitmap.recycle();						
+			bitmap.recycle();
+			System.gc();
 		}
 		
 		if (textureHandle[0] == 0)

@@ -139,7 +139,6 @@ public class RainDropLayer
 
 
     }
-
     public Bitmap cropCenter(int width, int height, Bitmap src) {
         Bitmap dst;
         float dstAspectRatio = width * 1f / height;
