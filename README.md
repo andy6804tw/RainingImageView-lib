@@ -24,10 +24,8 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        compile 'com.github.andy6804tw:RainingImageView-lib:1.0.0'
+	        compile 'com.github.andy6804tw:RainingImageView-lib:1.0.1'
 	}
-Share this release:
-
-Link
+[![](https://jitpack.io/v/andy6804tw/RainingImageView-lib.svg)](https://jitpack.io/#andy6804tw/RainingImageView-lib)
 
 Reference by https://github.com/yqf19930712/raindrop
